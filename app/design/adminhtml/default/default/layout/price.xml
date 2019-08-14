@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <price_adminhtml_price_index>
+        <reference name="content">
+            <block type="price/adminhtml_price" name="price" />
+        </reference>
+    </price_adminhtml_price_index>
+</layout>

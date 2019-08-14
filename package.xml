@@ -1,18 +1,24 @@
 <?xml version="1.0"?>
 <package>
     <name>Custom_Price</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
     <channel>community</channel>
     <extends/>
     <summary>Golden price module set product price as per their weight </summary>
-    <description>Golden price module set product price as per their weight this extension is very usefull for those project which product price decide based on their weight for example online shopping site for golden item etc this extension is developed by magento developer abhay khatariya for more details please visit http://abhaykhatariya.blogspot.in/ or contact abhay khatariya </description>
-    <notes>version 1.0.1</notes>
+    <description>Golden price module set product price as per their weight &#xD;
+this extension is very usefull for those project which product price decide based on their weight&#xD;
+for example online shopping site for golden item etc&#xD;
+this extension is developed by magento developer abhay khatariya&#xD;
+for more details please visit http://abhaykhatariya.blogspot.in/&#xD;
+or contact abhay khatariya&#xD;
+</description>
+    <notes>release new version</notes>
     <authors><author><name>Abhay</name><user>abhay5683</user><email>abhay5683@gmail.com</email></author></authors>
-    <date>2013-12-16</date>
-    <time>08:04:27</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Custom_Price.xml" hash="b35cd6000780b323703514dfe9497e7f"/></dir></target></contents>
+    <date>2013-12-17</date>
+    <time>06:50:01</time>
+    <contents><target name="magelocal"><dir name="Custom"><dir name="Price"><dir name="Block"><file name="Price.php" hash="32fbffae154875a4d077a70208252e25"/></dir><dir name="Helper"><file name="Data.php" hash="fcb0d53069a6c2439cb7c3d7e1329f95"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Price"><file name="Collection.php" hash="85db8de8d5344db73667d2dbc5689caf"/></dir><file name="Price.php" hash="76bf0b59d55536f521120bfa6e09529f"/></dir><file name="Observer.php" hash="e438c11b5323214e137834323fb9f20b"/><file name="Price.php" hash="1e2fab6dea7552218e1ec364293af3dd"/><file name="Status.php" hash="cd8871e88999444c4159f55df70c966e"/></dir><dir name="controllers"><file name="IndexController.php" hash="a7631aa54f30e0def5a1a7879b19e196"/></dir><dir name="etc"><file name="config.xml" hash="d1e5f7f44e9ac7c1dcb7ca6ee4571501"/><file name="system.xml" hash="0d2a4aab6ea538af79b52ba67620f1ed"/></dir><dir name="sql"><dir name="price_setup"><file name="mysql4-install-0.1.0.php" hash="14c27da2a7e413b668ffc5771376fb05"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Custom_Price.xml" hash="b35cd6000780b323703514dfe9497e7f"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="price.xml" hash="ff1e8d9ba192823ccad1deaceaaaf05a"/></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="custom.xml" hash="403bdbbaee3c131e9d8a1bb382938cab"/></dir><dir name="template"><dir name="custom"><file name="custom.phtml" hash="726c96cdb57d48108b9d6ade4a0f5a0c"/></dir><dir name="catalog"><dir name="product"><file name="list.phtml" hash="29306cd297c1649fadb0c447f3abcee6"/><file name="price.phtml" hash="14eadd29de7c9f93abcc4555792d9eb0"/></dir></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>5.4.10</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7.0.2</max></package></required></dependencies>
 </package>
