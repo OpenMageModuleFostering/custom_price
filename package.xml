@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Custom_Price</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Golden price module set product price as per their weight </summary>
+    <description>Golden price module set product price as per their weight this extension is very usefull for those project which product price decide based on their weight for example online shopping site for golden item etc this extension is developed by magento developer abhay khatariya for more details please visit http://abhaykhatariya.blogspot.in/ or contact abhay khatariya </description>
+    <notes>version 1.0.1</notes>
+    <authors><author><name>Abhay</name><user>abhay5683</user><email>abhay5683@gmail.com</email></author></authors>
+    <date>2013-12-16</date>
+    <time>08:04:27</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Custom_Price.xml" hash="b35cd6000780b323703514dfe9497e7f"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>5.4.10</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7.0.2</max></package></required></dependencies>
+</package>
