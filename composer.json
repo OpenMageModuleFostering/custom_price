@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Custom_Price",
+    "name": "OpenMageModuleFostering\/Custom_Price",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Golden price module set product price as per their weight ",
     "authors": [
-    {
-        "name": "Abhay",
-        "email": "abhay5683@gmail.com"
-    }
-],
+        {
+            "name": "Abhay",
+            "email": "abhay5683@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
