@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Custom_Price",
+    "name": "openmage-module-fostering\/custom_price",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Golden price module set product price as per their weight ",
     "authors": [
